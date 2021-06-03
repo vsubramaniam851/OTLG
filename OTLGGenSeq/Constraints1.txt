@@ -1,0 +1,5 @@
+*[-stress,+glide][#]                      :: An unstressed vowel or glide must not be in final position       1376
+*[+vowel,+high][+vowel,+round,-high]    :: for a sequence of vowel where one of them is round, one cannot be higher    944
+*[-nasal,-stop]                         :: Nasal and stops agree in place                                   1345
+*[+sonorant]                            :: [+sonorant] segments are prohibited                                         818
+*[-vowel,-voice,-bilabial][-vowel,-voice,-bilabial] :: assign a violation mark to a sequence of consonants in which both consonants are labial and  both consonants have the same voicing                                                                           1045

@@ -1,0 +1,10 @@
+*[+nasal,+voice]                        :: If [+nasal] then not [-voice]                                    1344
+*[-vowel][+vowel]                       :: a consonant is adjacent to a vowel                               1167
+*[-vowel][-vowel][-vowel]               :: assign a violation mark for every seq of three consonants                   895
+*[+interdental]                         :: Assign one violation mark for every dental segment 1369
+*[-vowel,-back][+vowel,-high,-low,-back]:: A consonant and a following mid vowel  must agree in backness  1491
+*[+high,+vowel][+glide]                 :: Dont be a sequence of high vowel and a homorganic glide 1433
+*[+dental,+stop][+dental,+stop]         :: Identical stops prohibited    1479
+*[-stress,+glide][#]                      :: An unstressed vowel or glide must not be in final position       1376
+*[+glottal,+stop][+glottal,+stop]       :: Identical stops prohibited    1479
+*[+high,+front,+round,+vowel]           :: dont be a high front rounded vowel                               1085
